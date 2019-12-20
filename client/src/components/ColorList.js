@@ -141,8 +141,5 @@ const ColorList = ({ colors, updateColors }) => {
     </div>
   );
 };
-// const initialColor = {
-//   color: "",
-//   code: { hex: "" }
-// };
+
 export default ColorList;
