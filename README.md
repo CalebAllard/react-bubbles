@@ -35,7 +35,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] Describe how web servers work.
   servers are used to talk to browsers and databases, they are the middle man. There are also hardware servers which host the software to run all the web servers which inturn send the website to users when requested. 
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
-  Post,Put,Get, and Delete, or CRUD => Create, Read, Update, and Delete
+  Post,Put,Get, and Delete, or CRUD => Create{Put & Post}, Read{Get}, Update{Put}, and Delete{Delete}
 
 
 ## Project Set Up

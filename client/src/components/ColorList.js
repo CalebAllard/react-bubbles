@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios";
 import { axiosWithAuth } from "../utils/axiosWithAuth";
 
 const initialColor = {
@@ -25,9 +24,8 @@ const ColorList = ({ colors, updateColors }) => {
     .then(res => {
       updateColors([
         ...colors.filter(item => {
-          if (item.id !== colorToEdit.id){
-            return item;
-          }
+          if (item.id !== colorToEdit.id)
+            return item; 
         }),
         colorToEdit
       ]);
